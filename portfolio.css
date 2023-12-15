@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+
+
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+         box-sizing: border-box;
+
+}
+body{
+    font-family: monstserrat;
+}
+nav{
+    background-color:black;
+    height: 80px;
+    color: white;
+    font-size: 35px;
+    line-height: 0 100px;
+    font-weight: bold;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 20px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+
+}
+a.active,a:hover{
+    background:navy;
+}
+.checkbtn{
+    font-size: 30px;
+    color:white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.icon{
+    display: block;
+}
+@media (max-width:912px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    h1{
+        font-size: 1em;
+    }
+.h1{
+    margin-top: -2em;
+}
+    .image{
+        float: top;
+        margin-top: -15em;
+
+    }
+
+}
+@media screen and  (max-width:850px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+        width: 100%;
+    }
+    nav ul li a{
+        font-size: 16px;
+
+    }
+    h1{
+        font-size: 0.8em;
+
+
+    }
+    h4{
+        font-size: 0.7em
+    }
+    nav ul li{
+        display: inline-block;
+        line-height: 1px;
+        margin:-2px;
+}
+#home{
+    background-image:url("bak2.jpg");
+    background-size: cover;
+    height:32em;
+    width: 100%;
+
+}
+.h1{
+    margin-top: -4em;
+}
+
+.image{
+    padding-top:-200em;
+    margin-top: -3em;
+
+}
+.img{
+    width: 50%;
+    border-radius: 20em;
+    border-color: black;
+    border:2px solid;
+}
+/*About me */
+
+.about{
+    font-size: 10em;
+    text-align:right;
+    margin-top: -1px;
+    color: navy;
+}
+.about i{
+    display: none;
+}
+.mike{
+    width:100%;
+    border-radius: 2em;
+    margin-left:100px;
+    margin-top: 0px;
+}
+.bio{
+    margin-left: 5%;
+    margin-top: -2%;
+}
+.bio b{
+    font-size: 1em;
+    color: orangered;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+}
+
+@media screen and  (max-width:412px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+
+    }
+
+    #home{
+        background-image:url("bak2.jpg");
+        background-size: cover;
+        height:32em;
+        width: 128%;
+
+    }
+    nav{
+width: 15em;
+
+    }
+
+
+    .skill{
+        background-color: navy;
+        margin-top: 8em;
+        background-repeat:100%;}
+
+}
+
+
+
+
+
+#home{
+    background-image:url("bak2.jpg");
+    background-size: cover;
+    height:32em;
+
+
+
+}
+.img{
+    max-width: 200px;
+    border-radius: 20em;
+    border-color: black;
+    border:2px solid;
+}
+.image{
+    float: right;
+    padding:5em ;
+    padding-right: 10em;
+
+
+}
+h1{
+    text-align:center;
+    color: navy;
+    font-weight: bolder;
+
+}
+.h1{float: inline-start;
+    padding-left: 2em;
+    padding-top: 5em;
+    font-size: xx-large;
+}
+/*about me */
+.me{
+    border: 4px solid white;
+    border-radius: 20px;
+    text-align: center;
+    padding: -20em;
+    color:white;
+    padding-left: -200em;
+    margin-top: 10px;
+    background-color: navy;
+}
+#frontend{
+    color: orangered;
+}
+
+li {
+    display: inline-block;
+}
+.about{
+    font-size: 3em;
+    text-align: center;
+    margin-top: 10px;
+    color: navy;
+}
+.mike{
+    width:25%;
+    border-radius: 2em;
+    display: block;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.bio{
+    margin-left: 37%;
+    margin-top: -26%;
+}
+.bio b{
+    font-size: 1.3em;
+    color: orangered;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.bio p{
+    font-size: 1.2em;
+    color: navy;}
+.bio h3{
+    color: navy;
+}
+.bio i{
+    color: orangered;
+}
+/*skill */
+.skill{
+    background-color: navy;
+    margin-top: 8em;
+    background-repeat: repeat;
+}
+.skill h2{
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
